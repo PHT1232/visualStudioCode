@@ -1,0 +1,15 @@
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\bin\Debug\net6.0\baiTap13_1.exe
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\bin\Debug\net6.0\baiTap13_1.deps.json
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\bin\Debug\net6.0\baiTap13_1.runtimeconfig.json
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\bin\Debug\net6.0\baiTap13_1.dll
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\bin\Debug\net6.0\ref\baiTap13_1.dll
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\bin\Debug\net6.0\baiTap13_1.pdb
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\baiTap13_1.csproj.AssemblyReference.cache
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\baiTap13_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\baiTap13_1.AssemblyInfoInputs.cache
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\baiTap13_1.AssemblyInfo.cs
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\baiTap13_1.csproj.CoreCompileInputs.cache
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\baiTap13_1.dll
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\ref\baiTap13_1.dll
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\baiTap13_1.pdb
+C:\Users\phatn\source\repos\baiTap13_1\baiTap13_1\obj\Debug\net6.0\baiTap13_1.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\bin\Debug\SQLWindowsForm.exe.config
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\bin\Debug\SQLWindowsForm.exe
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\bin\Debug\SQLWindowsForm.pdb
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.csproj.AssemblyReference.cache
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.Form1.resources
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.Properties.Resources.resources
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.csproj.GenerateResource.cache
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.exe
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.pdb
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.Form2.resources
+C:\Users\phatn\source\repos\SQLWindowsForm\SQLWindowsForm\obj\Debug\SQLWindowsForm.Form3.resources

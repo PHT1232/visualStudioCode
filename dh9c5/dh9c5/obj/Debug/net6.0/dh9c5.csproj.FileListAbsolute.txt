@@ -1,0 +1,15 @@
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\dh9c5.csproj.AssemblyReference.cache
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\dh9c5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\dh9c5.AssemblyInfoInputs.cache
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\dh9c5.AssemblyInfo.cs
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\dh9c5.csproj.CoreCompileInputs.cache
+C:\Users\phatn\source\repos\dh9c5\dh9c5\bin\Debug\net6.0\dh9c5.exe
+C:\Users\phatn\source\repos\dh9c5\dh9c5\bin\Debug\net6.0\dh9c5.deps.json
+C:\Users\phatn\source\repos\dh9c5\dh9c5\bin\Debug\net6.0\dh9c5.runtimeconfig.json
+C:\Users\phatn\source\repos\dh9c5\dh9c5\bin\Debug\net6.0\dh9c5.dll
+C:\Users\phatn\source\repos\dh9c5\dh9c5\bin\Debug\net6.0\ref\dh9c5.dll
+C:\Users\phatn\source\repos\dh9c5\dh9c5\bin\Debug\net6.0\dh9c5.pdb
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\dh9c5.dll
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\ref\dh9c5.dll
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\dh9c5.pdb
+C:\Users\phatn\source\repos\dh9c5\dh9c5\obj\Debug\net6.0\dh9c5.genruntimeconfig.cache

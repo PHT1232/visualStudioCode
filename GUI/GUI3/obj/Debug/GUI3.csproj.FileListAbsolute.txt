@@ -1,0 +1,6 @@
+C:\Users\phatn\source\repos\GUI\GUI3\obj\Debug\GUI3.csproj.AssemblyReference.cache
+C:\Users\phatn\source\repos\GUI\GUI3\obj\Debug\GUI3.csproj.SuggestedBindingRedirects.cache
+C:\Users\phatn\source\repos\GUI\GUI3\obj\Debug\GUI.Form1.resources
+C:\Users\phatn\source\repos\GUI\GUI3\obj\Debug\GUI3.Properties.Resources.resources
+C:\Users\phatn\source\repos\GUI\GUI3\obj\Debug\GUI3.csproj.GenerateResource.cache
+C:\Users\phatn\source\repos\GUI\GUI3\obj\Debug\GUI3.csproj.CoreCompileInputs.cache

@@ -1,0 +1,9 @@
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\bin\Debug\BUS.dll
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\bin\Debug\BUS.pdb
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\bin\Debug\DAL.dll
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\bin\Debug\DAL.pdb
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\obj\Debug\BUS.dll
+C:\Users\phatn\source\repos\QuanLyThuVien\BUS\obj\Debug\BUS.pdb

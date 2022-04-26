@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61acc642-9ca0-4ba7-a3f9-d19e1d513958": {
+      "ProjectGuid": "61acc642-9ca0-4ba7-a3f9-d19e1d513958",
+      "DisplayName": "GUI",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ceacd670-8751-473c-b886-1a83097dcec3": {
+      "ProjectGuid": "ceacd670-8751-473c-b886-1a83097dcec3",
+      "DisplayName": "DAL",
+      "ColorIndex": 1
+    },
+    "6467c5ca-3289-4e8a-888a-6183ddb58297": {
+      "ProjectGuid": "6467c5ca-3289-4e8a-888a-6183ddb58297",
+      "DisplayName": "BUS",
+      "ColorIndex": 2
+    },
+    "71e0711c-a136-448d-a353-93f736b3ce6d": {
+      "ProjectGuid": "71e0711c-a136-448d-a353-93f736b3ce6d",
+      "DisplayName": "GUI1",
+      "ColorIndex": 3
+    },
+    "824a6940-1bb6-4127-b704-87a22c8fe260": {
+      "ProjectGuid": "824a6940-1bb6-4127-b704-87a22c8fe260",
+      "DisplayName": "GUI",
+      "ColorIndex": 4
+    },
+    "f29b66d0-1712-402b-b38b-601f941070d7": {
+      "ProjectGuid": "f29b66d0-1712-402b-b38b-601f941070d7",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 5
+    },
+    "2a1c9a68-d14b-42ff-b0a5-988074f6e51b": {
+      "ProjectGuid": "2a1c9a68-d14b-42ff-b0a5-988074f6e51b",
+      "DisplayName": "GUI3",
+      "ColorIndex": 6
+    },
+    "20894b6a-82d1-423a-8a43-870d1ea35f82": {
+      "ProjectGuid": "20894b6a-82d1-423a-8a43-870d1ea35f82",
+      "DisplayName": "GUI",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}
