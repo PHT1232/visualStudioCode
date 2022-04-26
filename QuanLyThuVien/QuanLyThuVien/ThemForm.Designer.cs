@@ -34,7 +34,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,6 +52,9 @@
             this.namXuatBan = new QuanLyThuVien.RJControls.datePicker();
             this.cb_theLoai = new QuanLyThuVien.RJControls.Combobox();
             this.tenSachTxt = new QuanLyThuVien.RJControls.UserControl1();
+            this.button1 = new QuanLyThuVien.RJControls.button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button2 = new QuanLyThuVien.RJControls.button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,17 +119,6 @@
             this.label7.Size = new System.Drawing.Size(15, 20);
             this.label7.TabIndex = 23;
             this.label7.Text = "*";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(506, 53);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(15, 20);
-            this.label8.TabIndex = 24;
-            this.label8.Text = "*";
             // 
             // label9
             // 
@@ -404,11 +395,60 @@
             this.tenSachTxt.Texts = "";
             this.tenSachTxt.UnderlinedStyle = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button1.BackgroundColor = System.Drawing.Color.CornflowerBlue;
+            this.button1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.button1.BorderRadius = 20;
+            this.button1.BorderSize = 0;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(47, 422);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 41);
+            this.button1.TabIndex = 41;
+            this.button1.Text = "Sửa";
+            this.button1.TextColor = System.Drawing.Color.White;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(506, 53);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(15, 20);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "*";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button2.BackgroundColor = System.Drawing.Color.CornflowerBlue;
+            this.button2.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.button2.BorderRadius = 20;
+            this.button2.BorderSize = 0;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(47, 482);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(150, 41);
+            this.button2.TabIndex = 42;
+            this.button2.Text = "Xóa";
+            this.button2.TextColor = System.Drawing.Color.White;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // ThemForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
             this.ClientSize = new System.Drawing.Size(823, 574);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.cb_tacgia);
             this.Controls.Add(this.label13);
@@ -454,7 +494,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private RJControls.datePicker namXuatBan;
         private RJControls.button them;
@@ -471,5 +510,8 @@
         private System.Windows.Forms.Label label13;
         private RJControls.Combobox cb_tacgia;
         private System.Windows.Forms.Label label14;
+        private RJControls.button button1;
+        private System.Windows.Forms.Label label8;
+        private RJControls.button button2;
     }
 }

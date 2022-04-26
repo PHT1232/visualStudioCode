@@ -45,6 +45,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.docGiaMenuBtn = new System.Windows.Forms.Button();
             this.subMenu1 = new System.Windows.Forms.Panel();
+            this.nhaxuatbanbtn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.themSach = new System.Windows.Forms.Button();
@@ -57,7 +58,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.nhaxuatbanbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuPanel.SuspendLayout();
             this.subMenu3.SuspendLayout();
@@ -314,6 +314,23 @@
             this.subMenu1.Size = new System.Drawing.Size(180, 195);
             this.subMenu1.TabIndex = 10;
             // 
+            // nhaxuatbanbtn
+            // 
+            this.nhaxuatbanbtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.nhaxuatbanbtn.FlatAppearance.BorderSize = 0;
+            this.nhaxuatbanbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nhaxuatbanbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nhaxuatbanbtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.nhaxuatbanbtn.Image = ((System.Drawing.Image)(resources.GetObject("nhaxuatbanbtn.Image")));
+            this.nhaxuatbanbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.nhaxuatbanbtn.Location = new System.Drawing.Point(0, 147);
+            this.nhaxuatbanbtn.Name = "nhaxuatbanbtn";
+            this.nhaxuatbanbtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.nhaxuatbanbtn.Size = new System.Drawing.Size(180, 49);
+            this.nhaxuatbanbtn.TabIndex = 3;
+            this.nhaxuatbanbtn.Text = "Nhà Xuất Bản";
+            this.nhaxuatbanbtn.UseVisualStyleBackColor = true;
+            // 
             // button3
             // 
             this.button3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -477,23 +494,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(197, 58);
             this.panel2.TabIndex = 8;
-            // 
-            // nhaxuatbanbtn
-            // 
-            this.nhaxuatbanbtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.nhaxuatbanbtn.FlatAppearance.BorderSize = 0;
-            this.nhaxuatbanbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nhaxuatbanbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nhaxuatbanbtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.nhaxuatbanbtn.Image = ((System.Drawing.Image)(resources.GetObject("nhaxuatbanbtn.Image")));
-            this.nhaxuatbanbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.nhaxuatbanbtn.Location = new System.Drawing.Point(0, 147);
-            this.nhaxuatbanbtn.Name = "nhaxuatbanbtn";
-            this.nhaxuatbanbtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.nhaxuatbanbtn.Size = new System.Drawing.Size(180, 49);
-            this.nhaxuatbanbtn.TabIndex = 3;
-            this.nhaxuatbanbtn.Text = "Nhà Xuất Bản";
-            this.nhaxuatbanbtn.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
