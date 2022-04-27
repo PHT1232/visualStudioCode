@@ -42,8 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dangNhap.cs" />
+    <Compile Include="docGiaBus.cs" />
+    <Compile Include="nhaXuatBanBus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tacGiaBus.cs" />
+    <Compile Include="theLoaiBus.cs" />
     <Compile Include="themBus.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -34,15 +34,7 @@
             this.profile = new System.Windows.Forms.Button();
             this.menuPanel = new System.Windows.Forms.Panel();
             this.muonSachBtn = new System.Windows.Forms.Button();
-            this.subMenu3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.nhanVienbtn = new System.Windows.Forms.Button();
-            this.subMenu2 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.docGiaMenuBtn = new System.Windows.Forms.Button();
             this.subMenu1 = new System.Windows.Forms.Panel();
             this.nhaxuatbanbtn = new System.Windows.Forms.Button();
@@ -60,8 +52,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuPanel.SuspendLayout();
-            this.subMenu3.SuspendLayout();
-            this.subMenu2.SuspendLayout();
             this.subMenu1.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.settingPanel.SuspendLayout();
@@ -78,7 +68,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(203, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 31);
+            this.label1.Size = new System.Drawing.Size(262, 39);
             this.label1.TabIndex = 7;
             this.label1.Text = "Quản lý thư viện";
             // 
@@ -113,9 +103,7 @@
             this.menuPanel.AutoScroll = true;
             this.menuPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(71)))));
             this.menuPanel.Controls.Add(this.muonSachBtn);
-            this.menuPanel.Controls.Add(this.subMenu3);
             this.menuPanel.Controls.Add(this.nhanVienbtn);
-            this.menuPanel.Controls.Add(this.subMenu2);
             this.menuPanel.Controls.Add(this.docGiaMenuBtn);
             this.menuPanel.Controls.Add(this.subMenu1);
             this.menuPanel.Controls.Add(this.sachMenuBtn);
@@ -134,75 +122,13 @@
             this.muonSachBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.muonSachBtn.Image = ((System.Drawing.Image)(resources.GetObject("muonSachBtn.Image")));
             this.muonSachBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.muonSachBtn.Location = new System.Drawing.Point(0, 666);
+            this.muonSachBtn.Location = new System.Drawing.Point(0, 366);
             this.muonSachBtn.Name = "muonSachBtn";
             this.muonSachBtn.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.muonSachBtn.Size = new System.Drawing.Size(180, 57);
+            this.muonSachBtn.Size = new System.Drawing.Size(197, 57);
             this.muonSachBtn.TabIndex = 16;
             this.muonSachBtn.Text = "Mượn trả sách";
             this.muonSachBtn.UseVisualStyleBackColor = true;
-            // 
-            // subMenu3
-            // 
-            this.subMenu3.Controls.Add(this.button1);
-            this.subMenu3.Controls.Add(this.button4);
-            this.subMenu3.Controls.Add(this.button6);
-            this.subMenu3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subMenu3.Location = new System.Drawing.Point(0, 516);
-            this.subMenu3.Name = "subMenu3";
-            this.subMenu3.Size = new System.Drawing.Size(180, 150);
-            this.subMenu3.TabIndex = 15;
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 98);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(180, 49);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Quản lý";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 49);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(180, 49);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Chỉnh sửa";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 0);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(180, 49);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "Thêm";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // nhanVienbtn
             // 
@@ -213,76 +139,14 @@
             this.nhanVienbtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.nhanVienbtn.Image = ((System.Drawing.Image)(resources.GetObject("nhanVienbtn.Image")));
             this.nhanVienbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.nhanVienbtn.Location = new System.Drawing.Point(0, 459);
+            this.nhanVienbtn.Location = new System.Drawing.Point(0, 309);
             this.nhanVienbtn.Name = "nhanVienbtn";
             this.nhanVienbtn.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.nhanVienbtn.Size = new System.Drawing.Size(180, 57);
+            this.nhanVienbtn.Size = new System.Drawing.Size(197, 57);
             this.nhanVienbtn.TabIndex = 14;
             this.nhanVienbtn.Text = "Nhân viên";
             this.nhanVienbtn.UseVisualStyleBackColor = true;
             this.nhanVienbtn.Click += new System.EventHandler(this.nhanVienbtn_Click);
-            // 
-            // subMenu2
-            // 
-            this.subMenu2.Controls.Add(this.button8);
-            this.subMenu2.Controls.Add(this.button9);
-            this.subMenu2.Controls.Add(this.button10);
-            this.subMenu2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subMenu2.Location = new System.Drawing.Point(0, 309);
-            this.subMenu2.Name = "subMenu2";
-            this.subMenu2.Size = new System.Drawing.Size(180, 150);
-            this.subMenu2.TabIndex = 12;
-            // 
-            // button8
-            // 
-            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 98);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(180, 49);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Quản lý";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 49);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(180, 49);
-            this.button9.TabIndex = 1;
-            this.button9.Text = "Chỉnh Sửa ";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(0, 0);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(180, 49);
-            this.button10.TabIndex = 0;
-            this.button10.Text = "Thêm ";
-            this.button10.UseVisualStyleBackColor = true;
             // 
             // docGiaMenuBtn
             // 
@@ -296,7 +160,7 @@
             this.docGiaMenuBtn.Location = new System.Drawing.Point(0, 252);
             this.docGiaMenuBtn.Name = "docGiaMenuBtn";
             this.docGiaMenuBtn.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.docGiaMenuBtn.Size = new System.Drawing.Size(180, 57);
+            this.docGiaMenuBtn.Size = new System.Drawing.Size(197, 57);
             this.docGiaMenuBtn.TabIndex = 11;
             this.docGiaMenuBtn.Text = "Độc giả";
             this.docGiaMenuBtn.UseVisualStyleBackColor = true;
@@ -311,7 +175,7 @@
             this.subMenu1.Dock = System.Windows.Forms.DockStyle.Top;
             this.subMenu1.Location = new System.Drawing.Point(0, 57);
             this.subMenu1.Name = "subMenu1";
-            this.subMenu1.Size = new System.Drawing.Size(180, 195);
+            this.subMenu1.Size = new System.Drawing.Size(197, 195);
             this.subMenu1.TabIndex = 10;
             // 
             // nhaxuatbanbtn
@@ -326,7 +190,7 @@
             this.nhaxuatbanbtn.Location = new System.Drawing.Point(0, 147);
             this.nhaxuatbanbtn.Name = "nhaxuatbanbtn";
             this.nhaxuatbanbtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.nhaxuatbanbtn.Size = new System.Drawing.Size(180, 49);
+            this.nhaxuatbanbtn.Size = new System.Drawing.Size(197, 49);
             this.nhaxuatbanbtn.TabIndex = 3;
             this.nhaxuatbanbtn.Text = "Nhà Xuất Bản";
             this.nhaxuatbanbtn.UseVisualStyleBackColor = true;
@@ -343,7 +207,7 @@
             this.button3.Location = new System.Drawing.Point(0, 98);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(180, 49);
+            this.button3.Size = new System.Drawing.Size(197, 49);
             this.button3.TabIndex = 2;
             this.button3.Text = "Tác giả";
             this.button3.UseVisualStyleBackColor = true;
@@ -360,7 +224,7 @@
             this.button2.Location = new System.Drawing.Point(0, 49);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(180, 49);
+            this.button2.Size = new System.Drawing.Size(197, 49);
             this.button2.TabIndex = 1;
             this.button2.Text = "Thể loại";
             this.button2.UseVisualStyleBackColor = true;
@@ -377,7 +241,7 @@
             this.themSach.Location = new System.Drawing.Point(0, 0);
             this.themSach.Name = "themSach";
             this.themSach.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.themSach.Size = new System.Drawing.Size(180, 49);
+            this.themSach.Size = new System.Drawing.Size(197, 49);
             this.themSach.TabIndex = 0;
             this.themSach.Text = "Quản lý sách";
             this.themSach.UseVisualStyleBackColor = true;
@@ -396,7 +260,7 @@
             this.sachMenuBtn.Location = new System.Drawing.Point(0, 0);
             this.sachMenuBtn.Name = "sachMenuBtn";
             this.sachMenuBtn.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.sachMenuBtn.Size = new System.Drawing.Size(180, 57);
+            this.sachMenuBtn.Size = new System.Drawing.Size(197, 57);
             this.sachMenuBtn.TabIndex = 0;
             this.sachMenuBtn.Text = "Sách";
             this.sachMenuBtn.UseVisualStyleBackColor = true;
@@ -510,8 +374,6 @@
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuPanel.ResumeLayout(false);
-            this.subMenu3.ResumeLayout(false);
-            this.subMenu2.ResumeLayout(false);
             this.subMenu1.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
             this.settingPanel.ResumeLayout(false);
@@ -537,15 +399,7 @@
         private System.Windows.Forms.Button themSach;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel subMenu2;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button docGiaMenuBtn;
-        private System.Windows.Forms.Panel subMenu3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button nhanVienbtn;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button muonSachBtn;

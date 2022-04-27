@@ -7,11 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data;
+using BUS;
 
 namespace QuanLyThuVien
 {
     public partial class ThemForm : Form
     {
+
+        tacGiaBus tgb = new tacGiaBus();
+        nhaXuatBanBus nxbb = new nhaXuatBanBus();
+        theLoaiBus tlb = new theLoaiBus();
 
         public ThemForm()
         {
@@ -20,7 +27,15 @@ namespace QuanLyThuVien
 
         private void ThemForm_Load(object sender, EventArgs e)
         {
-
+            SqlDataReader dr = tgb.hienThiTacGia();
+            SqlDataReader dr2 = tlb.hienthitheloai();
+            SqlDataReader dr3 = nxbb.hienThiNhaXuatBan();
+            while (dr.Read())
+            {
+                cb_tacgia.Items.Add(dr[0].ToString());
+                cb_theLoai.Items.Add(dr2[0].ToString());
+                nhaxuatbancb.Items.Add(dr3[0].ToString());
+            }
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -45,8 +60,7 @@ namespace QuanLyThuVien
 
             }
         }
-
-        private void userControl11_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             openFileDialog1.InitialDirectory = "C://Desktop";
             openFileDialog1.Title = "Select image to be upload";
@@ -54,19 +68,20 @@ namespace QuanLyThuVien
             openFileDialog1.FilterIndex = 1;
             try
             {
-                if (openFileDialog1.ShowDialog()  == System.Windows.Forms.DialogResult.OK)
+                if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     if (openFileDialog1.CheckFileExists)
                     {
                         string path = System.IO.Path.GetFullPath(openFileDialog1.FileName);
-                        userControl11.Texts = "phat";
-                        MessageBox.Show(path);
+                        anhSach.Image = new Bitmap(openFileDialog1.FileName);
                     }
-                } else
+                }
+                else
                 {
                     MessageBox.Show("Please Upload image");
                 }
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }

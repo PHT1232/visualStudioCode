@@ -16,13 +16,19 @@ namespace BUS
 
         public void insert(string tentacgia, string email, string gioitinh, string mota, string matacgia)
         {
-            string sql = "Insert into tacgia values(N'" + tentacgia + "', N'" + email + "', N'" + gioitinh + "', N'" + mota + "', N'" + matacgia + "')";
+            string sql = "Insert into tacgia values(N'" + matacgia + "', N'" + tentacgia + "', N'" + mota + "', N'" + email + "', N'" + gioitinh + "')";
             da.ExecuteNonQuery(sql);
         }
 
         public void update(string tentacgia, string email, string gioitinh, string mota, string matacgia)
         {
-            string sql = "update tacgia set tentacgia = N'" + tentacgia + "', email = N'" + email + "', gioiTinh = N'" + gioitinh + "', mota = N'" + mota + "', matacgia = N'" + matacgia + "'";
+            string sql = "update tacgia set tentacgia = N'" + tentacgia + "', email = N'" + email + "', gioiTinh = N'" + gioitinh + "', mota = N'" + mota + "' where matacgia = N'" + matacgia + "'";
+            da.ExecuteNonQuery(sql);
+        }
+
+        public void delete(string matg)
+        {
+            string sql = "delete from tacgia where matacgia = N'" + matg + "'";
             da.ExecuteNonQuery(sql);
         }
 
