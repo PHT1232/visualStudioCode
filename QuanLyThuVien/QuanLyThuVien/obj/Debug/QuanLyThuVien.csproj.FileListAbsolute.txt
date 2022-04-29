@@ -25,3 +25,4 @@ C:\Users\phatn\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\BUS.dll
 C:\Users\phatn\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\DAL.dll
 C:\Users\phatn\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\BUS.pdb
 C:\Users\phatn\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\DAL.pdb
+C:\Users\phatn\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.tacgia.resources

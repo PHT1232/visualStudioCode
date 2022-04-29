@@ -103,6 +103,18 @@
     <Compile Include="RJControls\UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="tacgia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tacgia.Designer.cs">
+      <DependentUpon>tacgia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="theloai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="theloai.Designer.cs">
+      <DependentUpon>theloai.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +148,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RJControls\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacgia.resx">
+      <DependentUpon>tacgia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="theloai.resx">
+      <DependentUpon>theloai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemForm.resx">
       <DependentUpon>ThemForm.cs</DependentUpon>

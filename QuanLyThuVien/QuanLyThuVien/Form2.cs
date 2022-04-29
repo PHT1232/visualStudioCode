@@ -14,6 +14,7 @@ namespace QuanLyThuVien
     public partial class Form2 : Form
     {
         ThemForm tf;
+        tacgia tg;
         public Form2()
         {
             InitializeComponent();
@@ -37,8 +38,6 @@ namespace QuanLyThuVien
         private void customizeDesing()
         {
             subMenu1.Visible = false;
-            subMenu2.Visible = false;          
-            subMenu3.Visible = false;
             settingPanel.Visible = false;
         }
 
@@ -64,24 +63,13 @@ namespace QuanLyThuVien
             showSubMenu(subMenu1);
         }
 
-        private void docGiaMenuBtn_Click(object sender, EventArgs e)
-        {
-            showSubMenu(subMenu2);
-        }
-
-        private void nhanVienbtn_Click(object sender, EventArgs e)
-        {
-            showSubMenu(subMenu3);
-        }
-
-        private void exitBtn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void themSach_Click(object sender, EventArgs e)
         {
             pictureBox3.Hide();
+            if (tg != null)
+            {
+                tg.Hide();
+            }
             tf = new ThemForm();
             tf.TopLevel = false;
             tf.Dock = DockStyle.Fill;
@@ -92,6 +80,25 @@ namespace QuanLyThuVien
         private void profile_Click_1(object sender, EventArgs e)
         {
             showSubMenu(settingPanel);
+        }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pictureBox3.Hide();
+            if (tf != null)
+            {
+                tf.Hide();
+            }
+            tg = new tacgia();
+            tg.TopLevel = false;
+            tg.Dock = DockStyle.Fill;
+            mainPanel.Controls.Add(tg);
+            tg.Show();
         }
     }
 }

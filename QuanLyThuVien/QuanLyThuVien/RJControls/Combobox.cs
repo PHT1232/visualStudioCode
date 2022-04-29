@@ -244,7 +244,6 @@ namespace QuanLyThuVien.RJControls
         {
             get { return cmbList.Items; }
         }
-
         [Category("RJ Code - Data")]
         [AttributeProvider(typeof(IListSource))]
         [DefaultValue(null)]
@@ -253,7 +252,6 @@ namespace QuanLyThuVien.RJControls
             get { return cmbList.DataSource; }
             set { cmbList.DataSource = value; }
         }
-
         [Category("RJ Code - Data")]
         [Browsable(true)]
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
@@ -265,7 +263,6 @@ namespace QuanLyThuVien.RJControls
             get { return cmbList.AutoCompleteCustomSource; }
             set { cmbList.AutoCompleteCustomSource = value; }
         }
-
         [Category("RJ Code - Data")]
         [Browsable(true)]
         [DefaultValue(AutoCompleteSource.None)]
@@ -275,7 +272,6 @@ namespace QuanLyThuVien.RJControls
             get { return cmbList.AutoCompleteSource; }
             set { cmbList.AutoCompleteSource = value; }
         }
-
         [Category("RJ Code - Data")]
         [Browsable(true)]
         [DefaultValue(AutoCompleteMode.None)]
@@ -285,7 +281,6 @@ namespace QuanLyThuVien.RJControls
             get { return cmbList.AutoCompleteMode; }
             set { cmbList.AutoCompleteMode = value; }
         }
-
         [Category("RJ Code - Data")]
         [Bindable(true)]
         [Browsable(false)]
@@ -295,7 +290,6 @@ namespace QuanLyThuVien.RJControls
             get { return cmbList.SelectedItem; }
             set { cmbList.SelectedItem = value; }
         }
-
         [Category("RJ Code - Data")]
         [Browsable(false)]
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
@@ -304,7 +298,6 @@ namespace QuanLyThuVien.RJControls
             get { return cmbList.SelectedIndex; }
             set { cmbList.SelectedIndex = value; }
         }
-
         [Category("RJ Code - Data")]
         [DefaultValue("")]
         [Editor("System.Windows.Forms.Design.DataMemberFieldEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(UITypeEditor))]
@@ -314,7 +307,6 @@ namespace QuanLyThuVien.RJControls
             get { return cmbList.DisplayMember; }
             set { cmbList.DisplayMember = value; }
         }
-
         [Category("RJ Code - Data")]
         [DefaultValue("")]
         [Editor("System.Windows.Forms.Design.DataMemberFieldEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(UITypeEditor))]
